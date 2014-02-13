@@ -1,3 +1,6 @@
+/*
+ * Created by Taber Storm Fitzgerald
+ */
 package com.simpleui;
 
 import android.os.Bundle;

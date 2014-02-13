@@ -12,7 +12,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ooooh look at the button!" />
+        android:text="Ooooh look at the button! There is more than one I promise." />
 
     <Button
         android:id="@+id/button2"
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/button1"
         android:layout_alignParentRight="true"
-        android:text="#1" />
+        android:text="#3" />
 
     <Button
         android:id="@+id/button1"
@@ -29,7 +29,7 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView1"
         android:layout_marginTop="36dp"
-        android:text="#2" />
+        android:text="#1" />
 
     <Button
         android:id="@+id/button3"
@@ -38,6 +38,6 @@
         android:layout_alignBaseline="@+id/button1"
         android:layout_alignBottom="@+id/button1"
         android:layout_centerHorizontal="true"
-        android:text="#3" />
+        android:text="#2" />
 
 </RelativeLayout>
