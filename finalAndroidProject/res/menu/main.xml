@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/ini" 
+        android:title="Initiative" 
+        android:titleCondensed="Ini" 
+        android:showAsAction="ifRoom">
+        
+    </item>
+    <item 
+        android:id="@+id/chars" 
+        android:title="Character" 
+        android:titleCondensed="Char"
+        android:showAsAction="ifRoom">
+        
+    </item>
+    <item 
+        android:id="@+id/die"
+        android:title="Dice Roller" 
+        android:titleCondensed="Die"
+        android:showAsAction="ifRoom"
+        >
+        
+    </item>
+
+</menu>
