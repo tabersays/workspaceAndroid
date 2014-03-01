@@ -3,21 +3,21 @@
         android:id="@+id/ini" 
         android:title="Initiative" 
         android:titleCondensed="Ini" 
-        android:showAsAction="ifRoom">
+        android:showAsAction="always">
         
     </item>
     <item 
         android:id="@+id/chars" 
         android:title="Character" 
         android:titleCondensed="Char"
-        android:showAsAction="ifRoom">
+        android:showAsAction="always">
         
     </item>
     <item 
         android:id="@+id/die"
         android:title="Dice Roller" 
         android:titleCondensed="Die"
-        android:showAsAction="ifRoom"
+        android:showAsAction="always"
         >
         
     </item>

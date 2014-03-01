@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name="charMenu"></activity>
+        <activity android:name="dieMenu"></activity>
     </application>
 
 </manifest>

@@ -53,6 +53,7 @@ public class MainActivity extends Activity implements OnClickListener {
 			FileWriter fw = new FileWriter(file.getAbsoluteFile(), true);
 			BufferedWriter bw = new BufferedWriter(fw);
 			bw.write(string);
+			bw.write('\n');
 			bw.close();
 			
  
@@ -74,6 +75,7 @@ public class MainActivity extends Activity implements OnClickListener {
 			FileWriter fw = new FileWriter(file.getAbsoluteFile());
 			BufferedWriter bw = new BufferedWriter(fw);
 			bw.write(string);
+			bw.write('\n');
 			bw.close();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -95,9 +97,13 @@ public class MainActivity extends Activity implements OnClickListener {
  
 			FileReader fr = new FileReader(file.getAbsoluteFile());
 			BufferedReader br = new BufferedReader(fr); 
-			toReturn = br.readLine();
-			br.close();
+			String str = "";
+			while((str = br.readLine()) != null)
+			{
+				toReturn = '\n' + toReturn + '\n' + str;
+			}
 			
+			br.close();
  
 		} catch (IOException e) {
 			Toast.makeText(getBaseContext(), "Error Read", Toast.LENGTH_LONG).show();
