@@ -39,7 +39,7 @@ public class MainActivity extends Activity implements OnClickListener {
 
 	@Override
 	public void onClick(View view) {
-		// TODO Auto-generated method stub
+		// Find the button
 		if(view.getId() == R.id.button1)
 		{
 			Button b1 = (Button) findViewById(R.id.button1);
